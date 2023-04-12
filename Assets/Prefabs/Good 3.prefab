@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5003212588178504950}
   - component: {fileID: 1920401735519840161}
   - component: {fileID: 4657270440096463380}
-  - component: {fileID: -5828225630633032997}
+  - component: {fileID: 509775896}
   m_Layer: 0
   m_Name: Good 3
   m_TagString: Untagged
@@ -115,7 +115,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-5828225630633032997
+--- !u!114 &509775896
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,3 +127,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4cc8da4882f24211a0665d37debac94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pointValue: 15
+  explosionParticle: {fileID: 5112437202714306363, guid: 7b4191607aae74c0ab244a8d6e48adbf, type: 3}
